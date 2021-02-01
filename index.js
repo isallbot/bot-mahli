@@ -182,7 +182,7 @@ async function starts() {
 			}
 			
 			ban = [
-			"6281229247198@s.whatsapp.net"
+			
 			]
 			const ownerNumber = [
 			"6281229247198@s.whatsapp.net"
