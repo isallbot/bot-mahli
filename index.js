@@ -15,8 +15,8 @@ const {
     GroupSettingChange
 } = require("@adiwajshing/baileys")
 
-let qrcode = require('qrcode')
-let simple = require('./lib/simple')
+
+
 
 const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRandom, banner, start, info, success, close } = require('./lib/functions')
 const { fetchJson } = require('./lib/fetcher')
