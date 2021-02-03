@@ -2,8 +2,12 @@
 const help = (prefix, instagram, name, uptime, pushname2, user, tanggal, jam) => { 
 	return `
 	
+	
 \`\`\`Follow My Instagram\`\`\`
 ${instagram}
+
+\`\`\`Join My Grup Whatsapp\`\`\`
+Link : https://chat.whatsapp.com/H2RlBvlnWEp5nvdlmE7100
 
 \`\`\`HARAP BACA NOTE DIBAWAH SEBELUM\`\`\`
 \`\`\`MENGGUNAKAN BOT\`\`\`
@@ -18,7 +22,7 @@ ${instagram}
 ┃╭───────────────────────
 ┃├➲ \`\`\`Total Pengguna:\`\`\` *${user.length} User*
 ┣━━━━━━━━━━━━━━━━━
-┃├➲ \`\`\`Total Donasi:\`\`\` *1%* 🙂
+┃├➲ \`\`\`Total Donasi:\`\`\` *5%* 🙂
 ┃╰───────────────────────
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
@@ -63,7 +67,7 @@ ${instagram}
 ͏͏͏͏͏͏͏͏͏͏͏͏͏͏╭────────────────────────
 ┴
 ➻ *${prefix}tiktokstalk [username]*
-➻ *${prefix}igstalk [_farhan_xcode7]*
+➻ *${prefix}igstalk [NAMA IG YG MAU DI STALK]*
 ➻ *${prefix}insta [Link]*
 ➻ *${prefix}instastory [username]*
 ➻ *${prefix}ssweb [url]*
@@ -88,14 +92,14 @@ ${instagram}
 ➻ *${prefix}trigger [reply image]*
 ➻ *${prefix}rip [reply image]*
 ➻ *${prefix}wasted [reply image]*
-➻ *${prefix}tahta [ISALL]*
+➻ *${prefix}tahta [MAHLI]*
 ➻ *${prefix}tts [id Haii]*
-➻ *${prefix}ttp [ISALL]*
-➻ *${prefix}attp [ISALL]*
-➻ *${prefix}csky [ISALL]*
-➻ *${prefix}cwooden [ISALL]*
-➻ *${prefix}ccrossfire [ISALL]*
-➻ *${prefix}cnaruto [ISALL]*
+➻ *${prefix}ttp [MAHLI]*
+➻ *${prefix}attp [MAHLI]*
+➻ *${prefix}csky [MAHLI]*
+➻ *${prefix}cwooden [MAHLI]*
+➻ *${prefix}ccrossfire [MAHLI]*
+➻ *${prefix}cnaruto [MAHLI]*
 ➻ *${prefix}stiker*
 ➻ *${prefix}gifstiker*
 ➻ *${prefix}toimg*
@@ -109,14 +113,14 @@ ${instagram}
 
 ╭──────────────────────────────
 ┴
-➻ *${prefix}cstune3d [ISALL/BOT]*
-➻ *${prefix}cspace3d [ISALL/BOT]*
-➻ *${prefix}cmarvel [ISALL/BOT]*
-➻ *${prefix}cavengers [ISALL/BOT]*
-➻ *${prefix}cpubg [ISALL/BOT]*
-➻ *${prefix}cglitch [ISALL/BOT]*
-➻ *${prefix}cmetal [ISALL/BOT]*
-➻ *${prefix}cphlogo [ISALL/BOT]*
+➻ *${prefix}cstune3d [MAHLI/BOT]*
+➻ *${prefix}cspace3d [MAHLI/BOT]*
+➻ *${prefix}cmarvel [MAHLI/BOT]*
+➻ *${prefix}cavengers [MAHLI/BOT]*
+➻ *${prefix}cpubg [MAHLI/BOT]*
+➻ *${prefix}cglitch [MAHLI/BOT]*
+➻ *${prefix}cmetal [MAHLI/BOT]*
+➻ *${prefix}cphlogo [MAHLI/BOT]*
 ➻ *${prefix}quotemaker [tx/wtrmk/tema]*
 ➻ *${prefix}nulis [nama/kelas/text]*
 ┬
@@ -225,14 +229,14 @@ ${instagram}
 ╭──────────────────────────
 ┴
 ➻ *${prefix}translate [en/Apa kabar?]*
-➻ *${prefix}pasangan [Farhan/Iriene]*
-➻ *${prefix}gantengcek [Farhan]*
+➻ *${prefix}pasangan [MAHLI/Iriene]*
+➻ *${prefix}gantengcek [MAHLI]*
 ➻ *${prefix}cantikcek [Iriene]*
-➻ *${prefix}artinama [Farhan]*
+➻ *${prefix}artinama [MAHLI]*
 ➻ *${prefix}persengay [Topan]*
-➻ *${prefix}pbucin [Farhan]*
-➻ *${prefix}bpfont [Farhan]*
-➻ *${prefix}textstyle [ISALL]*
+➻ *${prefix}pbucin [MAHLI]*
+➻ *${prefix}bpfont [MAHLI]*
+➻ *${prefix}textstyle [MAHLI]*
 ➻ *${prefix}jadwaltv [antv]*
 ➻ *${prefix}lirik [melukis senja]*
 ➻ *${prefix}chord [Melukis senja]*
@@ -322,11 +326,12 @@ ${instagram}
 ╰────────────────────────
 
 
-⟣━━━━━━❬ *SUPPORT ${name}* ❭━━━━━━⟢
+⟣━━━━━━❬ *SUPPORT TEAM MIBOTZ* ❭━━━━━━⟢
 ╭────────────────────────
 │
-├➲  *ISALL GANS*
-├➲  *MAHLI JB*
+├➲  *FAISAL WAPI* WA : wa.me/6289630267618
+├➲  *MAHLI JB* WA : wa.me/6281229247198
+│
 ╰────────────────────────
 
 
@@ -339,14 +344,14 @@ ${instagram}
 ┃
 ┣⊱❥ \`\`\`Jika Lama Harap Ulangi Command\`\`\`
 ┃
-┣⊱❥ *Gunakan Command Tanpa [ ]*
+┣⊱❥ *Gunakan Command Tanpa [ ! ]*
 ┃
 ┣⊱❥ \`\`\`Dan Jika Mengalami Error\`\`\`
 ┃ \`\`\`Harap Lapor Owner Dengan Cara\`\`\`
 ┃ *${prefix}report* \`\`\`apa pesan errornya\`\`\`
 ┃
-┣⊱❥ \`\`\`Mau Invit Bot?? Donasi Gan,\`\`\`
-┃ \`\`\`Kalo Gamau Donasi Follow Ig\`\`\`
+┣⊱❥ \`\`\`Mau sewa Bot?? Chat owner Gan,\`\`\`
+┃ \`\`\` 10k masuk grup anda \`\`\`
 ┃ \`\`\`@achmadarifinilham12\`\`\`
 ┃
 ┣⊱❥ \`\`\`Kalian Bisa Mempublish Quotes Kalian\`\`\`

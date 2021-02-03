@@ -14,9 +14,9 @@ const donasi = (Ig, name) => {
 ┃  *BOT BY ${name}*
 ┗━━━━━━━━━━━━━━━━━━━━
 Note:
-Jika Gamau Donasi Setidaknya Follow IG Ngab:D
-Kalo Dah Donasi Silahkan Invit Di Group Kalian:)
-Makasih:)
+Kalo ada yang uang lebih donasi biar bisa update fitur
+atau bot aktip terus
+makasih:)
 
 ${Ig}
 
