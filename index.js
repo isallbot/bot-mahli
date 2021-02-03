@@ -56,8 +56,8 @@ const anlink = JSON.parse(fs.readFileSync('./database/json/antilink.json'))
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
             + 'FN:MAHLI\n'
-            + 'ORG:Creator BOT-ISALL;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6289630267618:+62 896-3026-7618\n'
+            + 'ORG:Creator FAISAL WAPI;\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6281229247198:+62 812-2924-7198\n'
             + 'END:VCARD'
 
 
@@ -185,10 +185,10 @@ async function starts() {
 			
 			]
 			const ownerNumber = [
-			"6281229247198@s.whatsapp.net"
+			"6281229247198@s.whatsapp.net" : "6289630267618@s.whatsapp.net"
 			]
 			premium = [
-			"6281229247198@s.whatsapp.net"
+			
 			]
 			
 			const apakahh = [
@@ -300,7 +300,7 @@ async function starts() {
                 if (!check) {
                     return
                 } else {
-                    reply(from, '*[GROUP LINK DETECTOR!]*\nKamu mengirimkan link grup chat, maaf kamu segera di kick dari grup.\n\n~ZeusBot', id).then(() => {
+                    reply(from, '*[GROUP LINK DETECTOR!]*\nKamu mengirimkan link grup chat, maaf kamu segera di kick dari grup.\n\n~BOT YOE', id).then(() => {
                         mek.groupRemove(from, groupMembers)
                     })
                 }
@@ -879,7 +879,7 @@ async function starts() {
 					if (!isOwner) return reply(mess.only.ownerB)
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 			        ban = mentioned
-					reply(`berhasil banned : ${ban}`)
+					reply(`SORY YA GAN GW BAN DULU MAAF !! : ${ban}`)
 					break
 				case 'addprem':
 					client.updatePresence(from, Presence.composing)
@@ -1117,7 +1117,7 @@ async function starts() {
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('628311800241@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6281229247198@s.whatsapp.net', options, text, {quoted: mek})
                     reply('Masalah telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi.')
                     break
                 case 'request':
@@ -1132,7 +1132,7 @@ async function starts() {
                          text: ress,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('628311800241@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6281229247198@s.whatsapp.net', options, text, {quoted: mek})
                     reply('REQUEST ANDA TELAH SAMPAI ke owner BOT, Requests palsu/main2 tidak akan ditanggapi.')
                     break
 				case 'meme':
