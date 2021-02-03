@@ -185,7 +185,7 @@ async function starts() {
 			
 			]
 			const ownerNumber = [
-			"6281229247198@s.whatsapp.net" : "6289630267618@s.whatsapp.net"
+			"6281229247198@s.whatsapp.net : 6289630267618@s.whatsapp.net"
 			]
 			premium = [
 			
