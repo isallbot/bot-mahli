@@ -1,9 +1,11 @@
 /*
 * Tambahin nama author lah
-* Author MhankBarBar, ISALL
+* Author MhankBarBar, Isall
 * Tambahin ya Cape Gan ngefix² Yg Ga work
 * Jan numpang nama doank
-
+- What's New?
+* New Features
+*/
 const {
     WAConnection,
     MessageType,
@@ -59,12 +61,12 @@ prefix, name, instagram, yt, groupLink, memberLimit
 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:MAHLI-BOT\n'
+            + 'FN: Mahli\n'
             + 'ORG:Creator FAISAL WAPI;\n'
             + 'TEL;type=CELL;type=VOICE;waid=6281229247198:+62 812-2924-7198\n'
             + 'END:VCARD'
 
-rdaftar = "TERIMA KASIH TELAH JADI MEMBER BOT-YOE😁"
+rdaftar = "TERIMA KASIH TELAH DAFTAR😁"
 limitt = 50
 ban = []
 userpremium = ["6281229247198@s.whatsapp.net"] //ubah nomer kalian
@@ -152,7 +154,7 @@ const getRegisteredRandomId = () => {
 			const content = JSON.stringify(mek.message)
 			const from = mek.key.remoteJid
 			const type = Object.keys(mek.message)[0]
-			const FarhanGans = ["6281229247198@s.whatsapp.net"] // ubah aja gapapa
+			const FarhanGans = ["628311800241@s.whatsapp.net"] // ubah aja gapapa
 			const farhan = mek.message.conversation
 			const insom = from.endsWith('@g.us')
 			const nameReq = insom ? mek.participant : mek.key.remoteJid
