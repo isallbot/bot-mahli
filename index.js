@@ -61,7 +61,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
             + 'FN:MAHLI-BOT\n'
             + 'ORG:Creator FAISAL WAPI;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6282259218016:+62 822 5921 8016\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6281229247198:+62 812-2924-7198\n'
             + 'END:VCARD'
 
 rdaftar = "TERIMA KASIH TELAH JADI MEMBER BOT-YOE😁"
@@ -220,7 +220,7 @@ const getRegisteredRandomId = () => {
             ]
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6282259218016@s.whatsapp.net"] // owner number ubah aja
+			const ownerNumber = ["6281229247198@s.whatsapp.net"] // owner number ubah aja
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -2297,7 +2297,7 @@ const getRegisteredRandomId = () => {
 						teks += `╠➥ @${mem.jid.split('@')[0]} wa.me/${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions(`╔═══✪ Tag By *${pushname2}* ✪══`+ teks +'╚═══〘 BOT-ADIT 〙═══', members_id, true)
+					mentions(`╔═══✪ Tag By *${pushname2}* ✪══`+ teks +'╚═══〘 BOT-YOE 〙═══', members_id, true)
 					break
 			    case 'mentionall':
 			    if (isBanned) return reply(mess.only.benned)    
@@ -2310,7 +2310,7 @@ const getRegisteredRandomId = () => {
 						teks += `╠➥ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions(`╔══〘  *${body.slice(12)}*  〙✪══`+teks+'╚═〘 BOT-ADIT 〙', members_id, true)
+					mentions(`╔══〘  *${body.slice(12)}*  〙✪══`+teks+'╚═〘 BOT-YOE 〙', members_id, true)
 					break
 			    case 'kbbi':
 			    if (isBanned) return reply(mess.only.benned)    
@@ -2362,7 +2362,7 @@ const getRegisteredRandomId = () => {
 					for (let _ of anu) {
 						client.deleteChat(_.jid)
 					}
-					reply(`\`\`\`Sukses delete all chat BOT-ADIT\`\`\``)
+					reply(`\`\`\`Sukses delete all chat BOT-YOE\`\`\``)
 					break
                                 case 'bcgc':
 					client.updatePresence(from, Presence.composing) 
@@ -2395,7 +2395,7 @@ const getRegisteredRandomId = () => {
 						reply('Suksess broadcast')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `[ *BOT-ADIT BROADCAST* ]\n\n${body.slice(4)}`)
+							sendMess(_.jid, `[ *BOT-YOE BROADCAST* ]\n\n${body.slice(4)}`)
 						}
 						reply('Suksess broadcast')
 					}
@@ -3232,7 +3232,7 @@ const getRegisteredRandomId = () => {
 						console.log(muehe)
 						reply(muehe)
 					} else {
-						console.log(color('[BOT-ADIT]','red'), 'Command Tidak Terdaftar', color(sender.split('@')[0]))
+						console.log(color('[BOT-YOE]','red'), 'Command Tidak Terdaftar', color(sender.split('@')[0]))
 					}
                            }
 		} catch (e) {
